@@ -44,7 +44,7 @@ Plug 'preservim/nerdtree'
 call plug#end()
 set background=dark
 colorscheme iceberg
-hi Normal guibg=NONE ctermbg=NONE
+" hi Normal guibg=NONE ctermbg=NONE
 
 "Telescope Config
 
