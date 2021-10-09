@@ -40,3 +40,4 @@ set.colorcolumn = "80"
 set.signcolumn = "yes"
 set.splitbelow = true
 set.wrap = false
+set.compatible = false
