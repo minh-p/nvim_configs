@@ -17,6 +17,8 @@ local keybindingsTable = {
     {keybind = "<leader>fb", command = "lua require('telescope.builtin').buffers()"},
     {keybind = "<leader>fh", command = "lua require('telescope.builtin').help_tags()"},
     {keybind = "<leader>t", command = "NERDTreeToggle"},
+    {keybind = "<leader>w", command = "tabc"},
+    {keybind = "<leader>s", command = "tabe"},
 }
 
 -- loop through the keybindingsTable and map the keys
