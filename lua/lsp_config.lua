@@ -40,10 +40,10 @@ cmp.setup({
 -- Setup lspconfig.
 local lspconfig = require("lspconfig")
 
-lspconfig.pyright.setup({
-    capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
-})
+local languageServers = {"pyright", "clangd"}
 
-lspconfig.clangd.setup({
-    capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
-})
+for _, languageServer in ipairs(languageServers) do
+    lspconfig[languageServer].setup({
+        capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
+    })
+end
