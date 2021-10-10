@@ -40,3 +40,6 @@ set.signcolumn = "yes"
 set.splitbelow = true
 set.wrap = false
 set.compatible = false
+
+-- for vim-signify:
+set.updatetime = 100
