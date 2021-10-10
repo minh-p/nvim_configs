@@ -1,5 +1,6 @@
 -- Setup nvim-cmp.
 local cmp = require("cmp")
+local library = {}
 
 cmp.setup({
     snippet = {
@@ -85,10 +86,10 @@ lspconfig.sumneko_lua.setup {
         globals = {'vim'},
       },
       workspace = {
-        -- Make the server aware of Neovim runtime files
-        library = vim.api.nvim_get_runtime_file("", true),
         -- setPreload
+        library = library,
         maxPreload = 2000,
+        checkThirdParty = false
       },
       -- Do not send telemetry data containing a randomized but unique identifier
       telemetry = {

@@ -11,7 +11,6 @@ vim.g.mapleader = "\\"
 -- global, window, and buffer settings
 local set = vim.opt
 
--- setting syntax coloring
 vim.cmd [[
     set t_vb=
 ]]
