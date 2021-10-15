@@ -19,6 +19,8 @@ local keybindingsTable = {
     {keybind = "<leader>t", command = "NERDTreeToggle"},
     {keybind = "<leader>w", command = "tabc"},
     {keybind = "<leader>s", command = "tabe"},
+    {keybind = "<leader>a", command = "lua require('persistence').load()"},
+    {keybind = "<leader>v", command = "lua require('persistence').load({last=true})"},
 }
 
 -- loop through the keybindingsTable and map the keys
