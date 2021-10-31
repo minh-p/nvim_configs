@@ -9,6 +9,7 @@ g.tokyonight_style = "night"
 
 vim.cmd [[
     syntax enable
-    colorscheme alduin
+    colorscheme iceberg
+    hi Normal guibg=NONE ctermbg=NONE
 ]]
 -- transparency: hi Normal guibg=NONE ctermbg=NONE
