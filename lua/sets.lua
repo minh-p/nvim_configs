@@ -16,7 +16,7 @@ vim.cmd [[
 ]]
 
 set.clipboard = "unnamed"
-set.termguicolors = true
+--set.termguicolors = true
 set.tabstop = 4
 set.shiftwidth = 4
 set.softtabstop = 4
