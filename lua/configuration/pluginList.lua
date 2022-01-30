@@ -1,6 +1,6 @@
 return {
     {path='sheerun/vim-polyglot', plugModule='polyglot'},
-    {path='itchyny/lightline.vim'},
+    {path="nvim-lualine/lualine.nvim", plugModule='lualine-setup'},
     {path='nvim-lua/plenary.nvim'},
     {path='nvim-telescope/telescope.nvim'},
     {path="neovim/nvim-lspconfig"},
@@ -16,4 +16,10 @@ return {
     {path="dylanaraps/wal.vim"},
     {path="kyazdani42/nvim-web-devicons"}, -- for file icons
     {path="kyazdani42/nvim-tree.lua", plugModule='nvim-tree-setup'},
+    {path="overcache/NeoSolarized"},
+    {path="nvim-treesitter/nvim-treesitter"},
+    {path="morhetz/gruvbox"},
+    {path="folke/tokyonight.nvim"},
+    {path="Mofiqul/vscode.nvim"},
+    {path="akinsho/toggleterm.nvim", plugModule='toggleterm-setup'},
 }

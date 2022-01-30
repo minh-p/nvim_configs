@@ -31,6 +31,8 @@ return {
         background="dark"
     },
     globals = {
-        mapleader="\\"
+        mapleader="\\",
+        tokyonight_style="storm",
+        vscode_style="dark"
     }
 }

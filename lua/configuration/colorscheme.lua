@@ -1,5 +1,5 @@
 return {
-    transparent = true,
+    transparent = false,
     syntaxEnabled = true,
-    currentColorscheme = "wal"
+    currentColorscheme = "tokyonight"
 }

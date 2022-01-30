@@ -8,6 +8,7 @@ return {
     {keybind = "<leader>n", command = "NvimTreeFindFile"},
     {keybind = "<leader>w", command = "tabc"},
     {keybind = "<leader>s", command = "tabe"},
+    {keybind = "<space>a", command = "tabnext"},
     {keybind = "<leader>a", command = "lua require('persistence').load()"},
     {keybind = "<leader>v", command = "lua require('persistence').load({last=true})"},
 }
