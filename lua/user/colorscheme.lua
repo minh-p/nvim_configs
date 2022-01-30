@@ -1,12 +1,16 @@
+local colorschemeConfig = require("configuration.colorscheme")
 local g = vim.g
 
 g.lightline = {
-    colorscheme = "wal"
+    colorscheme = colorschemeConfig.currentColorscheme
 }
 
-vim.cmd [[
-    syntax enable
-    colorscheme wal
-    hi Normal guibg=NONE ctermbg=NONE
-]]
--- transparency: hi Normal guibg=NONE ctermbg=NONE
+if colorschemeConfig.transparent then
+    vim.cmd("hi Normal guibg=NONE ctermbg=NONE")
+end
+
+if colorschemeConfig.syntaxEnabled then
+    vim.cmd("syntax enable")
+end
+
+vim.cmd("colorscheme " .. colorschemeConfig.currentColorscheme)
