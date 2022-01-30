@@ -1,29 +1,17 @@
 -- vim-plug installed
 
 local Plug = vim.fn['plug#']
-
 vim.call('plug#begin', '~/.config/nvim/plugged')
 
-Plug('sheerun/vim-polyglot')
-Plug('itchyny/lightline.vim')
-Plug('nvim-lua/plenary.nvim')
-Plug('nvim-telescope/telescope.nvim')
-Plug("neovim/nvim-lspconfig")
-Plug("hrsh7th/nvim-cmp")
-Plug("wbthomason/packer.nvim")
-Plug("hrsh7th/cmp-nvim-lsp")
-Plug("saadparwaiz1/cmp_luasnip")
-Plug("L3MON4D3/LuaSnip")
-Plug("mhinz/vim-signify")
-Plug("kshenoy/vim-signature")
-Plug("glepnir/dashboard-nvim")
-Plug("folke/persistence.nvim")
-Plug("dylanaraps/wal.vim")
-Plug("kyazdani42/nvim-web-devicons") -- for file icons
-Plug("kyazdani42/nvim-tree.lua")
+local pluginList = require("configuration.pluginList")
+for x = 1, #pluginList do
+    Plug(pluginList[x][1])
+end
 
 vim.call('plug#end')
 
-require("polyglot")
-require("dashboard_config")
-require("persistence_config")
+for y = 1, #pluginList do
+    if pluginList[y][2] then
+        require(pluginList[y][2])
+    end
+end
