@@ -12,7 +12,7 @@ return {
     {"mhinz/vim-signify"},
     {"kshenoy/vim-signature"},
     {"glepnir/dashboard-nvim", 'dashboard_config'},
-    {"folke/persistence.nvim", 'persistence_config'},
+    {"folke/persistence.nvim"},
     {"dylanaraps/wal.vim"},
     {"kyazdani42/nvim-web-devicons"}, -- for file icons
     {"kyazdani42/nvim-tree.lua", 'nvim-tree-setup'},
