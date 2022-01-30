@@ -12,6 +12,6 @@ vim.call('plug#end')
 
 for y = 1, #pluginList do
     if pluginList[y][2] then
-        require(pluginList[y][2])
+        require("PluginsModules."..pluginList[y][2])
     end
 end
