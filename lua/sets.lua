@@ -7,7 +7,6 @@ vim.o.background = "dark"
 -- globals
 
 vim.g.mapleader = "\\"
-
 -- global, window, and buffer settings
 local set = vim.opt
 
