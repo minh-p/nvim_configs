@@ -22,5 +22,6 @@ return {
     {path="folke/tokyonight.nvim"},
     {path="Mofiqul/vscode.nvim"},
     {path="akinsho/toggleterm.nvim", plugModule='toggleterm-setup'},
-    {path="xiyaowong/nvim-transparent", plugModule='nvim-transparent-setup'},
+    {path="lukas-reineke/indent-blankline.nvim", plugModule='indent-blankline-setup'},
+    {path="ishan9299/nvim-solarized-lua"},
 }

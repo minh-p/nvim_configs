@@ -1,5 +1,5 @@
 return {
     transparent = true,
     syntaxEnabled = true,
-    currentColorscheme = "vscode"
+    currentColorscheme = "tokyonight"
 }
