@@ -36,7 +36,7 @@ return {
         tokyonight_transparent = true,
         tokyonight_transparent_sidebar = true,
         vscode_style="dark",
-        vscode_transparent = 1,
+        --vscode_transparent = 1,
         solarized_termtrans = 1
     }
 }

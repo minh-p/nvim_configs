@@ -49,9 +49,15 @@ for _, languageServer in ipairs(simpleLanguageServers) do
     })
 end
 
+--[[
 lspconfig.java_language_server.setup {
-  cmd = {"/usr/share/java/java-language-server/lang_server_linux.sh"}
+  cmd = {"/usr/share/java/java-language-server/lang_server_linux.sh"},
+  settings = {
+    addExports = {"jdk.compiler/com.sun.tools.javac.api"}
+  }
 }
+--]]
+
 -- exceptions LanguageServers
 -- set the path to the sumneko installation; if you previously installed via the now deprecated :LspInstall, use
 local sumneko_root_path = vim.fn.stdpath('cache')..'/lspconfig/sumneko_lua/lua-language-server'
