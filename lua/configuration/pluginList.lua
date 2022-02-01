@@ -5,7 +5,6 @@ return {
     {path='nvim-telescope/telescope.nvim'},
     {path="neovim/nvim-lspconfig"},
     {path="hrsh7th/nvim-cmp"},
-    {path="wbthomason/packer.nvim"},
     {path="hrsh7th/cmp-nvim-lsp"},
     {path="saadparwaiz1/cmp_luasnip"},
     {path="L3MON4D3/LuaSnip"},
@@ -24,4 +23,5 @@ return {
     {path="akinsho/toggleterm.nvim", plugModule='toggleterm-setup'},
     {path="lukas-reineke/indent-blankline.nvim", plugModule='indent-blankline-setup'},
     {path="ishan9299/nvim-solarized-lua"},
+    {path="akinsho/bufferline.nvim", plugModule='bufferline-setup'},
 }
