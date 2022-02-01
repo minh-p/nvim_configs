@@ -5,7 +5,11 @@ vim.call('plug#begin', '~/.config/nvim/plugged')
 
 local pluginList = require("configuration.pluginList")
 for x = 1, #pluginList do
-    Plug(pluginList[x].path)
+    if pluginList[x].branch then
+        Plug(pluginList[x].path, {branch = pluginList[x].branch})
+    else
+        Plug(pluginList[x].path)
+    end
 end
 
 vim.call('plug#end')

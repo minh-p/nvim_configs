@@ -18,7 +18,7 @@ return {
     {path="overcache/NeoSolarized"},
     {path="nvim-treesitter/nvim-treesitter"},
     {path="morhetz/gruvbox"},
-    {path="folke/tokyonight.nvim"},
+    {path="folke/tokyonight.nvim", branch = "main"},
     {path="Mofiqul/vscode.nvim"},
     {path="akinsho/toggleterm.nvim", plugModule='toggleterm-setup'},
     {path="lukas-reineke/indent-blankline.nvim", plugModule='indent-blankline-setup'},
