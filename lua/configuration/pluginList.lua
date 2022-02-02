@@ -15,13 +15,13 @@ return {
     {path="dylanaraps/wal.vim"},
     {path="kyazdani42/nvim-web-devicons"}, -- for file icons
     {path="kyazdani42/nvim-tree.lua", plugModule='nvim-tree-setup'},
-    {path="overcache/NeoSolarized"},
     {path="nvim-treesitter/nvim-treesitter"},
     {path="morhetz/gruvbox"},
     {path="folke/tokyonight.nvim", branch = "main"},
     {path="Mofiqul/vscode.nvim"},
     {path="akinsho/toggleterm.nvim", plugModule='toggleterm-setup'},
     {path="lukas-reineke/indent-blankline.nvim", plugModule='indent-blankline-setup'},
-    {path="ishan9299/nvim-solarized-lua"},
     {path="akinsho/bufferline.nvim", plugModule='bufferline-setup'},
+    {path="lifepillar/vim-solarized8"},
+    {path="cocopon/iceberg.vim"}
 }

@@ -28,15 +28,17 @@ return {
         updatetime=100,     -- for vim-signify
     },
     o = {
-        background="dark"
+        background="dark",
+        termguicolors = true
     },
     globals = {
         mapleader="\\",
-        tokyonight_style="storm",
-        tokyonight_transparent = true,
-        tokyonight_transparent_sidebar = true,
+        tokyonight_style="night",
+        tokyonight_transparent = false,
+        tokyonight_transparent_sidebar = false,
         vscode_style="dark",
         --vscode_transparent = 1,
-        solarized_termtrans = 1
+        vscode_italic_comment = 1,
+        solarized_italics = 1
     }
 }

@@ -1,5 +1,6 @@
 return {
     transparent = false,
     syntaxEnabled = true,
-    currentColorscheme = "vscode"
+    currentColorscheme = "iceberg",
+    lualineTheme = "iceberg"
 }

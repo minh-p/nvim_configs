@@ -7,5 +7,5 @@ if colorschemeConfig.transparent then
 end
 
 if colorschemeConfig.syntaxEnabled then
-    vim.cmd("syntax enable")
+    vim.cmd("syntax on")
 end
