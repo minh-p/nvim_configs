@@ -34,8 +34,8 @@ return {
     globals = {
         mapleader="\\",
         tokyonight_style="night",
-        tokyonight_transparent = false,
-        tokyonight_transparent_sidebar = false,
+        tokyonight_transparent = true,
+        tokyonight_transparent_sidebar = true,
         vscode_style="dark",
         --vscode_transparent = 1,
         vscode_italic_comment = 1,
