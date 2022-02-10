@@ -1,6 +1,6 @@
 return {
-    transparent = false,
+    transparent = true,
     syntaxEnabled = true,
-    currentColorscheme = "vscode",
-    lualineTheme = "vscode"
+    currentColorscheme = "NeoSolarized",
+    lualineTheme = "solarized"
 }

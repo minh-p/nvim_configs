@@ -22,6 +22,8 @@ return {
     {path="akinsho/toggleterm.nvim", plugModule='toggleterm-setup'},
     {path="lukas-reineke/indent-blankline.nvim", plugModule='indent-blankline-setup'},
     {path="akinsho/bufferline.nvim", plugModule='bufferline-setup'},
-    {path="lifepillar/vim-solarized8"},
-    {path="cocopon/iceberg.vim"}
+    {path="overcache/NeoSolarized"},
+    {path="cocopon/iceberg.vim"},
+    {path="BurntSushi/ripgrep"},
+    {path="sharkdp/fd"},
 }
