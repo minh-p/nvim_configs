@@ -1,4 +1,4 @@
--- Setup nvim-cmp.
+-- Setup nvim-cmp.hmp
 local cmp = require("cmp")
 local library = {}
 
@@ -41,7 +41,7 @@ cmp.setup({
 -- Setup lspconfig.
 local lspconfig = require("lspconfig")
 
-local simpleLanguageServers = {"pyright", "clangd", "html", "denols"}
+local simpleLanguageServers = {"pyright", "clangd", "denols"}
 
 for _, languageServer in ipairs(simpleLanguageServers) do
     lspconfig[languageServer].setup({
@@ -93,4 +93,27 @@ lspconfig.sumneko_lua.setup {
       },
     },
   },
+}
+
+--Enable (broadcasting) snippet capability for completion
+local htmlCapabilities = vim.lsp.protocol.make_client_capabilities()
+htmlCapabilities.textDocument.completion.completionItem.snippetSupport = true
+
+lspconfig.html.setup {
+  capabilities = htmlCapabilities,
+  cmd = { "vscode-html-language-server", "--stdio" },
+  filetypes = { "html" },
+  init_options = {
+    configurationSection = { "html", "css", "javascript" },
+    embeddedLanguages = {
+      css = true,
+      javascript = true
+    },
+    provideFormatter = true
+  },
+  root_dir = function(startpath)
+      return M.search_ancestors(startpath, matcher)
+  end,
+  settings = {},
+  single_file_support = true,
 }
