@@ -15,3 +15,5 @@ end
 for k, v in pairs(sets.globals) do
     vim.g[k]=v
 end
+
+vim.cmd("filetype plugin on")

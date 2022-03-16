@@ -26,4 +26,5 @@ return {
     {path="cocopon/iceberg.vim"},
     {path="BurntSushi/ripgrep"},
     {path="sharkdp/fd"},
+    {path="vimwiki/vimwiki"}
 }
