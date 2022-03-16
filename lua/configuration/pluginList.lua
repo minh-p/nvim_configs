@@ -20,7 +20,7 @@ return {
     {path="folke/tokyonight.nvim", branch = "main"},
     {path="Mofiqul/vscode.nvim"},
     {path="akinsho/toggleterm.nvim", plugModule='toggleterm-setup'},
-    {path="lukas-reineke/indent-blankline.nvim", plugModule='indent-blankline-setup'},
+    --{path="lukas-reineke/indent-blankline.nvim", plugModule='indent-blankline-setup'},
     {path="akinsho/bufferline.nvim", plugModule='bufferline-setup'},
     {path="overcache/NeoSolarized"},
     {path="cocopon/iceberg.vim"},

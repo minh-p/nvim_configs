@@ -1,6 +1,6 @@
 return {
     transparent = false,
     syntaxEnabled = true,
-    currentColorscheme = "tokyonight",
-    lualineTheme = "tokyonight"
+    currentColorscheme = "NeoSolarized",
+    lualineTheme = "solarized"
 }
