@@ -8,6 +8,7 @@ return {
         expandtab=true,
         exrc=true,
         relativenumber=true,
+        number=true,
         hlsearch=false,
         encoding="utf-8",
         errorbells=false,
@@ -34,8 +35,8 @@ return {
     globals = {
         mapleader="\\",
         tokyonight_style="night",
-        tokyonight_transparent = true,
-        tokyonight_transparent_sidebar = true,
+        tokyonight_transparent = false,
+        tokyonight_transparent_sidebar = false,
         vscode_style="dark",
         --vscode_transparent = 1,
         vscode_italic_comment = 1,
