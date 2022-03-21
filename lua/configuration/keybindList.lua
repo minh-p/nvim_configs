@@ -6,11 +6,9 @@ return {
     {keybind = "<leader>t", command = "NvimTreeToggle"},
     {keybind = "<leader>r", command = "NvimTreeRefresh"},
     {keybind = "<leader>n", command = "NvimTreeFindFile"},
-    {keybind = "<leader>w", command = "tabc"},
-    {keybind = "<leader>s", command = "tabe"},
     {keybind = "<space>z", command = "BufferLinePickClose"},
     {keybind = "<space>f", command = "BufferLinePick"},
     {keybind = "<space>c", command = "BufferLineMovePrev"},
     {keybind = "<leader>a", command = "lua require('persistence').load()"},
-    {keybind = "<leader>v", command = "lua require('persistence').load({last=true})"},
+    {keybind = "<leader>v", command = "lua require('persistence').load({last=true})"}
 }
