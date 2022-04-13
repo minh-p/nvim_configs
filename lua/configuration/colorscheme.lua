@@ -1,5 +1,5 @@
 return {
-    transparent = false,
+    transparent = true,
     syntaxEnabled = true,
     currentColorscheme = "tokyonight",
     lualineTheme = "tokyonight"
